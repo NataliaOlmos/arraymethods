@@ -1,0 +1,57 @@
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50% ;
+}
+
+.card-deck{
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: fit-content;
+    margin:10px;
+    width: 300;
+    height: 320px;
+    border: 5pt solid #222622;
+    background-color: #58734C;
+}
+
+.container{
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:20px;
+}
+
+.btn{
+    background-color: #222622;
+    font-weight: bold;
+    color: white
+}
+
+body{
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #222622;
+    background-color: #BFBFBF;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+
+}
+.card-text p{
+    display: flex;
+    justify-content: center;
+
+}
